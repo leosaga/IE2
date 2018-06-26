@@ -7,11 +7,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7163AB6E-74C6-4886-91FE-D21A526BB71F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <StartupObject>WindowsApplication1.ModulePrincipal</StartupObject>
     <RootNamespace>WindowsApplication1</RootNamespace>
     <AssemblyName>IE2</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
