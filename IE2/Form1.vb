@@ -91,7 +91,7 @@
 
     Private Sub TextBox2_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox2.KeyPress
 
-
+        'Dim fecha As Date
         If Not Char.IsNumber(e.KeyChar) And Not Char.IsControl(e.KeyChar) And Not e.KeyChar = "/" Then
 
             e.Handled = True
@@ -113,11 +113,10 @@
             e.Handled = True
             Exit Sub
         End If
-        
-        If fecha > DateTime.Now Then
 
-        End If
-
+        'If CDate(TextBox2.Text) > DateTime.Now Then
+        'Exit Sub
+        'End If
 
 
     End Sub
@@ -151,5 +150,6 @@
    
 
 
-    
+
+
 End Class
